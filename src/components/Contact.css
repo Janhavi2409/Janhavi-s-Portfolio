@@ -1,0 +1,86 @@
+.main-contact {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 100px 5% 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .heading {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    margin-top: 80px; 
+    color: #ffffff;
+  }
+  
+  .card-contact {
+    border: 2px solid #a84040;
+    box-shadow: 0 0 15px rgba(168, 64, 64, 0.7);
+    border-radius: 20px;
+    width: 90%; 
+    max-width: 600px; 
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  input,
+  textarea {
+    border: 2px solid #a84040;
+    border-radius: 10px;
+    margin: 10px 0;
+    width: 90%; 
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    font-size: 1rem;
+    color: #ffffff;
+  }
+  
+  button {
+    height: 50px;
+    width: 100%;
+    max-width: 200px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 2px solid #a84040;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    color: #ffffff;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    box-shadow: 0 4px 15px #a84040;
+  }
+  
+  /* Media Queries for responsiveness */
+  @media (min-width: 768px) {
+    .heading {
+      font-size: 2.5rem;
+      margin-top: 90px;
+    }
+  
+    .card-contact {
+      width: 50vw; 
+    }
+  
+    button {
+      width: 150px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .heading {
+      font-size: 3rem;
+      margin-top: 100px; 
+    }
+  
+    .card-contact {
+      width: 40vw;
+    }
+  }
+  

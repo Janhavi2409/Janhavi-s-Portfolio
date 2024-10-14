@@ -1,0 +1,51 @@
+.main-project {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 0 5%;
+  text-align: justify;
+  margin: 5%;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  border: 2px solid #a84040;
+  box-shadow: 0 0 15px rgba(168, 64, 64, 0.7);
+  border-radius: 20px;
+  margin: 3%;
+  padding: 3%;
+  max-width: 300px;
+  height: auto;
+  text-align: center;
+  font-size: 1.25rem;
+  color: #ffffff;
+  flex: 1 1 250px;
+}
+
+.explore {
+  height: 50px;
+  width: 150px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 2px solid #a84040;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  color: #ffffff;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+
+.explore:hover {
+  box-shadow: 0 4px 25px #a84040;
+}

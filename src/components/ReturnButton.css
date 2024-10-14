@@ -1,0 +1,27 @@
+.return-button-container {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.return-button {
+  background-color: #d3d3d3;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+
+.return-button:hover {
+  background-color: #c0c0c0;
+}
+
+#up-arrow {
+  fill: #000;
+}
