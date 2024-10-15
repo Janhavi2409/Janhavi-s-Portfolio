@@ -10,7 +10,7 @@
 
 .about {
   border: 2px solid #a84040;
-  box-shadow: 0 0 15px rgba(168, 64, 64, 0.7);
+  box-shadow: 0 0 15px rgba(134, 19, 19, 0.7);
   border-radius: 20px;
   margin: 5%;
   padding: 5%;
@@ -52,6 +52,20 @@
     font-size: 1.3rem;
   }
 }
+
+@media (max-width: 1200px) {
+  .main-about{
+    margin-top: 100px;
+  }
+  .heading {
+    font-size: 1.8rem;
+  }
+
+  .text {
+    font-size: 1.4rem;
+  }
+}
+
 
 @media (max-width: 768px) {
   .about {
@@ -95,6 +109,25 @@
 
   .text {
     font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .about {
+    width: 70%; 
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+  }
+
+  .heading {
+    font-size: 1.1rem; 
+  }
+
+  .text {
+    font-size: 0.8rem; 
   }
 }
 

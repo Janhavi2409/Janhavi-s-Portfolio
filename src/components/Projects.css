@@ -19,6 +19,9 @@
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
   border: 2px solid #a84040;
   box-shadow: 0 0 15px rgba(168, 64, 64, 0.7);
   border-radius: 20px;
@@ -44,6 +47,7 @@
   color: #ffffff;
   cursor: pointer;
   transition: box-shadow 0.3s ease;
+  margin-top: auto; 
 }
 
 .explore:hover {
